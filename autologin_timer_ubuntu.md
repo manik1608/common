@@ -1,11 +1,12 @@
 # Auto login in a web-page
-Here are the steps to write a script that automatically logs in to your university's network after a certain period of time on Ubuntu:
+Here are the steps to write a script that automatically logs in to your university's network(or any webpage) after a certain period of time on Ubuntu:
 
 1. Open a terminal window on your Ubuntu computer.
 2. Type the following command to create a new file for your script:
     ```
     nano auto_login.sh
     ```
+    You can use any editor of you choice.
 3. In the text editor that opens, type the following lines of code:
     ```
     #!/bin/bash
